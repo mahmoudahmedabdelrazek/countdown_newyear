@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background: url(images/ice.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:whitesmoke;
+    font-size: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container h3{
+    padding-bottom: 50px;
+    color: white;
+
+}
+.countdown{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.countdown small{
+    text-align: center;
+}
